@@ -41,6 +41,43 @@
     margin-bottom: 10px;
 
 }
+li{
+  list-style-type: none;  
+    padding-left: 20px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 200px;
+    z-index: 1;
+    border-top:50px ;
+    
+
+}
+.submenu li{
+    padding-top: 20px;
+    
+    
+}
+.submenu li:hover{
+    background-color: #f2f2f6;
+}
+.menu li:hover > .submenu{
+    display: block;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.menu li{
+    position: block;
+}
+
+
 .original a{
     color: #0B6339;
 }
