@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 900;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+.art{
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 17px;
+    padding-left: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 10px;
+    padding-inline: 20px;
+    font-size:19px;
+}
+.original{
+    color: #0B6339;
+    background-color: #51ba876b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 12px;
+    font-size: 19px;
+    margin-bottom: 10px;
+
+}
+.original a{
+    color: #0B6339;
+}
+.banners{
+    width: 50%;
+    color: white;
+    background-color: #00C1A9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-block: 30px ;
+    justify-content: flex-start;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    padding-left: 20px;
+    
+}
+.banners h2{
+    padding-block: 10px;
+}
+.banners p{
+    padding-block: 10px;
+}
+.banners button{
+    color:white ;
+    background-color: #00C1A9;
+    border: 1px solid #00C1A9;
+    padding-block: 10px;
+}
+.banner {
+    width: 50%;
+    background-image: url(images.ctfassets.net/40akseett7bn/1dlY4pEDaKdf62RVxhNFJI/ef8527af18c58025b279b76eaaee01cf/TShirts_Banner_140.png);
+}
+.summary{
+    width: 40% auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 80px;
+}
+.summary:hover{
+    
+}
+.summary div{
+    padding-left: 10px;
+}
+.summary div p{
+    font-size: 24px;
+    text-align: center;
+    color: #19124F;
+    padding-block: 20px;
+}
+.one{
+   
+    display: flex;
+    flex-direction: column;
+    padding-block: 10px;
+    padding-left: 200px;
+}
+.one div{
+    display: flex;
+    flex-direction: row;
+    padding : 20px 0; 
+    font-size: 20px;
+    
+   
+}
+.one div p{
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding : 17px 22px;
+    margin-right: 20px;
+}
+.one div  .new{
+    background-color: #755EED;
+    color: white;
+}
+
+
+
+footer{
+    background-color:#07002f;
+    color: white;
+}
+footer .foot{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;;
+    padding-right: 290px;
+    
+}
+.foots{
+    display: flex;
+    flex-direction: column;
+    padding-block: 20px ;
+    padding-left: 90px;
+}
+.divider{
+    border-bottom: 1px solid #35305c;
+}
+.footer p{
+    display: flex;
+    
+    
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-block: 20px;
+}
+.users{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+   
+}
+.users p{
+    padding-right: 20px;
+}
+.rw{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 100px;
+    padding-block: 20px;
+    font-size: 18px;
+}
+.rw h3 {
+    padding-right: 10px
+}
+.grey{
+    background-color: #f2f2f6;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.top img{
+    padding-top: 52px;
+   width:500px;
+   height:367px;
+   padding-right: 100px;
+   object-fit: cover;
+    
+}
+.unique{
+    background-color: white;
+    margin-left: 180px;
+    margin-top: 50px;
+    padding-block: 70px;
+    padding-left: 70px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.unique button{
+    color: red;
+    background-color: white;
+    border: 1px solid white;
+    padding-block: 10px;
+    font-size: 17px;
+}
+.unique h3{
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap;
+    padding-inline: 200px;
+    margin-block: 100px;
+    margin-inline: 100px;
+    font-size: 19px;
+}
+.infos h3{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 7px;
+   padding-right: 670px;
+}
+.shippings{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 200px;
+    margin-bottom: 100px;
+    
+    border-bottom: 100px solid #f2f2f6;
+    
+}
+.shippings div{
+    margin: 30px 19Fpx 30px 5px;
+    
+
+}
+.shippings div p{
+    padding-block: 9px;
+    text-wrap: wrap;
+}
+.shippings div img{
+    width: 100px;
+    height: 100px;
+}
+.articles{
+    margin-left: 180px;
+    margin-block:15px ;
+    
+}
+.articles he{
+    color: #35305c;
+}
+.articles img{
+    padding-block: 12px;
+}
+.articles p{
+    font-size:19px
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+.twos{
+    display: flex;
+}
+span{
+    font-size: 25px;
+    font-weight: 900;
+    padding-block: 10px;
+}
+.two h5{
+    font-size: 18px;
+    padding-block: 5px;
+}
+.two p{
+    padding-bottom: 5px;
+}
+.two div{
+    padding-left: 20px;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 30px;
+}
+.option button{
+    
+    margin-right: 75px;
+    color: red;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 16px;
+}
