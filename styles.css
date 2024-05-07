@@ -77,6 +77,28 @@ li{
     position: block;
 }
 
+.heart-icon{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .original a{
     color: #0B6339;
@@ -324,8 +346,14 @@ a{
     flex-direction: column;
     margin-left: 130px;
 }
+
+
 .twos{
     display: flex;
+    
+}
+.twos div{
+    position: relative;
 }
 span{
     font-size: 25px;
